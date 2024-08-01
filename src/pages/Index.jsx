@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Heart, Paw } from "lucide-react";
+import { Heart, PawPrint } from "lucide-react";
 
 const Index = () => {
   const [inputValue, setInputValue] = useState('');
@@ -10,7 +10,7 @@ const Index = () => {
     <div className="min-h-screen flex flex-col bg-background">
       <header className="bg-primary text-primary-foreground p-6">
         <h1 className="text-3xl font-bold flex items-center justify-center">
-          <Heart className="mr-2" /> Pink Paradise <Paw className="ml-2" />
+          <Heart className="mr-2" /> Pink Paradise <PawPrint className="ml-2" />
         </h1>
       </header>
 
